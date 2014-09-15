@@ -98,6 +98,15 @@
                                     <rect key="frame" x="20" y="67" width="280" height="58"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q45-s5-mJd">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="133" width="192" height="42"/>
+                                </variation>
+                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IJ2-yD-3Mc">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -114,6 +123,7 @@
                                 <exclude reference="1wY-3Y-mV1"/>
                                 <exclude reference="czU-Nd-72M"/>
                                 <exclude reference="lDs-0M-Day"/>
+                                <exclude reference="q45-s5-mJd"/>
                                 <exclude reference="IJ2-yD-3Mc"/>
                             </mask>
                         </variation>
@@ -123,6 +133,7 @@
                                 <include reference="1wY-3Y-mV1"/>
                                 <include reference="czU-Nd-72M"/>
                                 <include reference="lDs-0M-Day"/>
+                                <include reference="q45-s5-mJd"/>
                                 <include reference="IJ2-yD-3Mc"/>
                             </mask>
                         </variation>
@@ -137,11 +148,12 @@
                         <outlet property="enterNameTextField" destination="1wY-3Y-mV1" id="2fH-z5-YRL"/>
                         <outlet property="mailButton" destination="czU-Nd-72M" id="H2D-tC-c0n"/>
                         <outlet property="messageLabel" destination="lDs-0M-Day" id="qaP-l4-K6W"/>
+                        <outlet property="nameLabel" destination="q45-s5-mJd" id="IUo-W5-W5o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rsL-5h-OgP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1758" y="309"/>
+            <point key="canvasLocation" x="1794" y="309"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Qbi-Ph-5h1">
